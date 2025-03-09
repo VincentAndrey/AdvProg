@@ -1,0 +1,4 @@
+[debug] [ex2_advprog-test] Classpath dependencies List()
+[debug] [ex2_advprog-test] Dependencies from configurations List(ex2_advprog)
+[debug] Bloop wrote the configuration of project 'ex2_advprog-test' to '/home/vincent/Desktop/ex2_advprog/.bloop/ex2_advprog-test.json'
+[success] Generated .bloop/ex2_advprog-test.json
