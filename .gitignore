@@ -1,0 +1,33 @@
+*.class
+*.log
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Ignore target and build output
+/target/
+/project/target/
+
+# Ignore metals & BSP (for Scala development in VS Code, IntelliJ)
+/.metals/
+/.bsp/
+/.worksheet/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore SBT dependency cache
+/project/project/
+.project/
+.classpath/
+.settings/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
