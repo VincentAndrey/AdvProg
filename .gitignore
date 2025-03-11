@@ -12,6 +12,8 @@ hs_err_pid*
 /.metals/
 /.bsp/
 /.worksheet/
+/.bloop/
+
 
 # Ignore IntelliJ IDEA files
 .idea/

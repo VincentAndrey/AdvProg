@@ -18493,3 +18493,20 @@ mars 11, 2025 9:13:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
 mars 11, 2025 9:13:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:15:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:16:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:17:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:17:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:18:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:18:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+2025.03.11 09:18:14 INFO  Shutting down server
+2025.03.11 09:18:14 INFO  shutting down Metals
+2025.03.11 09:18:14 INFO  Shut down connection with build server.
+2025.03.11 09:18:14 INFO  Shut down connection with build server.
+2025.03.11 09:18:14 INFO  Exiting server
