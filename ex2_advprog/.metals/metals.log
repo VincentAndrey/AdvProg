@@ -18135,3 +18135,361 @@ Mar 09, 2025 6:11:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 WARNING: Unsupported notification method: metals/windowStateDidChange
 Mar 09, 2025 6:12:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 23:31:13 INFO  Started: Metals version 1.5.1 in folders 'C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog' for client Visual Studio Code 1.97.2.
+2025.03.10 23:31:17 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:17 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:18 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:18 INFO  Attempting to connect to the build server...
+2025.03.10 23:31:18 INFO  Found a Bloop server running
+2025.03.10 23:31:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\.metals\bsp.trace.json or C:\Users\jpcik\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.14\scala-library-2.13.14.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.4\scala3-compiler_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.14\scala-library-2.13.14.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.4\scala3-interfaces-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.4\tasty-core_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.4\scala3-compiler_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.6.0-scala-1\scala-asm-9.6.0-scala-1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.6\compiler-interface-1.9.6.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.25.1\jline-reader-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.25.1\jline-terminal-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.4\scala3-interfaces-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.25.1\jline-terminal-jna-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.9.8\util-interface-1.9.8.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.4\tasty-core_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.25.1\jline-native-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.6.0-scala-1\scala-asm-9.6.0-scala-1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.3.4\scaladoc_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.6\compiler-interface-1.9.6.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.3.4\scala3-tasty-inspector_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.25.1\jline-reader-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.25.1\jline-terminal-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jna\3.25.1\jline-terminal-jna-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.9.8\util-interface-1.9.8.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.25.1\jline-native-3.25.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.14.0\jna-5.14.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scaladoc_3\3.3.4\scaladoc_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-tasty-inspector_3\3.3.4\scala3-tasty-inspector_3-3.3.4.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.8.2\liqp-0.8.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.1\jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\nl\big-o\liqp\0.8.2\liqp-0.8.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.1\jackson-dataformat-yaml-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jetbrains\annotations\15.0\annotations-15.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.7.2\antlr4-runtime-4.7.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jetbrains\annotations\15.0\annotations-15.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\ua\co\k\strftime4j\1.0.5\strftime4j-1.0.5.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.7.2\antlr4-runtime-4.7.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\ua\co\k\strftime4j\1.0.5\strftime4j-1.0.5.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar doesn't exist!
+2025.03.10 23:31:18 WARN  Scala instance jar C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar doesn't exist!
+2025.03.10 23:31:19 ERROR C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+C:\Users\jpcik\AppData\Local\ScalaCli\data\bloop
+
+2025.03.10 23:31:19 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\.bloop\ex2_advprog-test.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.file.NoSuchFileException: C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: bloop.data.Project$ProjectReadException: Failed to load project from C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\.bloop\ex2_advprog-test.json
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:265)
+	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:264)
+	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+	at monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.file.NoSuchFileException: C:\home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.4\scala3-library_3-3.3.4.jar
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:114)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+	at bloop.ScalaInstance.<init>(ScalaInstance.scala:110)
+	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:198)
+	at bloop.ScalaInstance$.$anonfun$apply$9(ScalaInstance.scala:204)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at bloop.ScalaInstance$.apply(ScalaInstance.scala:204)
+	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:287)
+	at scala.Option.flatMap(Option.scala:271)
+	at bloop.data.Project$.fromConfig(Project.scala:276)
+	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:259)
+	... 10 more
+
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.03.10 23:31:19 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:19 WARN  Could not find semantic tokens for: file:///C:/Users/jpcik/git/advprog2025/AdvProg/ex2_advprog/build.sbt
+2025.03.10 23:31:27 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:29 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:31 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:31 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:32 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:32 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:33 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:33 WARN  Could not find semantic tokens for: file:///C:/Users/jpcik/git/advprog2025/AdvProg/ex2_advprog/build.sbt
+2025.03.10 23:31:34 WARN  no build target for: C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt
+2025.03.10 23:31:34 INFO  no build target found for C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.03.10 23:31:34 WARN  Could not find semantic tokens for: file:///C:/Users/jpcik/git/advprog2025/AdvProg/ex2_advprog/build.sbt
+2025.03.10 23:31:37 INFO  running 'C:\Program Files\Microsoft\jdk-17.0.4.101-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\jpcik\AppData\Local\Temp\metals13625474197505023252\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.03.10 23:31:39 INFO  [info] welcome to sbt 1.10.7 (Microsoft Java 17.0.4.1)
+2025.03.10 23:31:41 INFO  [info] loading global plugins from C:\Users\jpcik\.sbt\1.0\plugins
+2025.03.10 23:31:43 INFO  [info] loading settings for project ex2_advprog-build-build from metals.sbt...
+2025.03.10 23:31:43 INFO  [info] loading project definition from C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\project\project
+2025.03.10 23:31:45 INFO  [info] loading settings for project ex2_advprog-build from metals.sbt...
+2025.03.10 23:31:45 INFO  [info] loading project definition from C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\project
+2025.03.10 23:31:47 INFO  [success] Generated .bloop\ex2_advprog-build.json
+2025.03.10 23:31:47 INFO  [success] Total time: 3 s, completed 10 mars 2025, 23:31:47
+2025.03.10 23:31:47 INFO  [info] loading settings for project ex2_advprog from build.sbt...
+2025.03.10 23:31:48 INFO  [info] set current project to ex2_advprog (in build file:/C:/Users/jpcik/git/advprog2025/AdvProg/ex2_advprog/)
+2025.03.10 23:31:50 INFO  [warn] commons-csv-1.9.0-sources.jar no longer exists at \home\vincent\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-csv\1.9.0\commons-csv-1.9.0-sources.jar
+2025.03.10 23:31:50 INFO  [success] Generated .bloop\ex2_advprog-test.json
+2025.03.10 23:31:50 INFO  [success] Generated .bloop\ex2_advprog.json
+2025.03.10 23:31:50 INFO  [success] Total time: 1 s, completed 10 mars 2025, 23:31:50
+2025.03.10 23:31:50 INFO  time: ran 'sbt bloopInstall' in 12s
+2025.03.10 23:31:50 INFO  Attempting to connect to the build server...
+2025.03.10 23:31:50 INFO  Found a Bloop server running
+2025.03.10 23:31:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\.metals\bsp.trace.json or C:\Users\jpcik\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.10 23:31:50 INFO  Attempting to connect to the build server...
+2025.03.10 23:31:50 INFO  Found a Bloop server running
+2025.03.10 23:31:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\project\.metals\bsp.trace.json or C:\Users\jpcik\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.10 23:31:51 INFO  time: Connected to build server in 1.35s
+2025.03.10 23:31:51 INFO  Connected to Build server: Bloop v2.0.8
+2025.03.10 23:31:51 INFO  running doctor check
+2025.03.10 23:31:51 INFO  java targets: ex2_advprog, ex2_advprog-test, ex2_advprog-build
+2025.03.10 23:32:00 INFO  time: indexed workspace in 8.25s
+2025.03.10 23:32:02 INFO  time: code lens generation in 1.96s
+2025.03.10 23:32:17 INFO  compiling ex2_advprog (1 scala source)
+2025.03.10 23:32:22 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.10 23:32:22 INFO  time: compiled ex2_advprog in 5.07s
+mars 10, 2025 11:33:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:33:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:35:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:40:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+2025.03.10 23:40:13 INFO  compiling ex2_advprog (1 scala source)
+2025.03.10 23:40:13 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.10 23:40:14 INFO  time: compiled ex2_advprog in 1.03s
+mars 10, 2025 11:41:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:42:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:45:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:45:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:52:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 10, 2025 11:52:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:16:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:16:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:17:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:17:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:18:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:18:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:18:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 12:19:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 8:56:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 8:57:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 8:57:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 435
+mars 11, 2025 8:57:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 502
+mars 11, 2025 8:57:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 517
+mars 11, 2025 8:57:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 554
+mars 11, 2025 8:59:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1008
+mars 11, 2025 9:00:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1599
+mars 11, 2025 9:01:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1904
+mars 11, 2025 9:02:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2017
+mars 11, 2025 9:02:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2111
+mars 11, 2025 9:03:58 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+GRAVE: empty definition using pc, found symbol in pc:  (full report at: C:\Users\jpcik\git\advprog2025\AdvProg\ex2_advprog\.metals\.reports\metals-full\2025-03-09\r_empty-definition_(ex2_advprog)_17-53-12-173.md)
+2025.03.11 09:03:58 INFO  compiling ex2_advprog (1 scala source)
+2025.03.11 09:03:58 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.11 09:03:58 INFO  time: compiled ex2_advprog in 0.98s
+2025.03.11 09:04:14 INFO  compiling ex2_advprog (1 scala source)
+2025.03.11 09:04:14 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.11 09:04:14 INFO  time: compiled ex2_advprog in 0.68s
+2025.03.11 09:04:16 INFO  compiling ex2_advprog (1 scala source)
+2025.03.11 09:04:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.11 09:04:16 INFO  time: compiled ex2_advprog in 0.59s
+mars 11, 2025 9:05:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3085
+mars 11, 2025 9:05:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3099
+2025.03.11 09:08:40 INFO  compiling ex2_advprog (1 scala source)
+2025.03.11 09:08:40 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2025.03.11 09:08:40 INFO  time: compiled ex2_advprog in 0.56s
+mars 11, 2025 9:08:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mars 11, 2025 9:10:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:10:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:11:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:11:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:12:11 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:12:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:13:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
+mars 11, 2025 9:13:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+AVERTISSEMENT: Unsupported notification method: metals/windowStateDidChange
