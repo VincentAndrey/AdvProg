@@ -7,6 +7,7 @@ trait Book:
     val Title:String //jpc: use lower case for attributes and methods: title instead of Title here
     val Author:String //jpc: why is the authro a string? shouldn't you use the Author class here?
 
+    
 // jpc: I think you are mixing here very different concepts. ebook is not a binding. you may need to create different enum for different types of classifications
 // jpc maybe even better, you could create a richer hierarchy of media, where you can have books or eBooks, or CDs in the class hierarchy
 enum Binding:

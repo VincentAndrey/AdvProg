@@ -13,6 +13,7 @@ hs_err_pid*
 /.bsp/
 /.worksheet/
 /.bloop/
+/.vscode/
 
 
 # Ignore IntelliJ IDEA files
