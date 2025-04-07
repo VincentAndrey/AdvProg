@@ -3,7 +3,7 @@ import org.apache.commons.csv.{CSVFormat, CSVParser}
 import java.nio.file.{Files, Paths}
 import scala.jdk.CollectionConverters._
 
-// Type Alias for readability
+
 type CSVEntry = Map[String, String]
 
 case class Author(val Name: String)
@@ -11,11 +11,11 @@ case class Author(val Name: String)
 object Author:
     def apply(s:String) = new Author(s)
 
-// VA: Parametrized Type: Generic Trait for different book-related entities
+
 trait Identifiable[T]:
     def id: Option[T]
 
-// VA: Covariant Generic Trait
+
 trait Book[+T] extends Identifiable[Int]:
     val title:String
     val author:Author
@@ -23,8 +23,6 @@ trait Book[+T] extends Identifiable[Int]:
 enum Format:
     case Paperback, Mass_Market_Paperback, Hardcover, Kindle_Edition, ebook, Webcomic, Revised_Edition, Audible_Audio, Audio_CD, Audiobook, Unknown_Binding, None
 
-
-// VA: Case Class extending Generic Book Trait
 case class case_Book(
     book_id: Option[Int],
     title: String,
@@ -36,7 +34,7 @@ case class case_Book(
     format: Format,
     page_number: Option[Int],
     publish_year: Option[Int]
-) extends Book[Int]: // VA: Extends Covariant Trait
+) extends Book[Int]:
     def id: Option[Int] = book_id
 
 def author_initials(book:case_Book)=
@@ -100,10 +98,37 @@ def insert_case_class(entry: CSVEntry): case_Book =
     return book 
 
 @main def main =
-    var CaseBooksList: List[case_Book] = List()
     val data = readCsvFile()
-    
-    // Print data
-    for entry <- data do
-        val CaseBook = insert_case_class(entry)
-        CaseBooksList = CaseBooksList :+ CaseBook
+
+    //VA: changed to val for immutability and functional mapping
+    val caseBooksList: List[case_Book] = data.map(insert_case_class)
+
+    //VA: use of collection with filter to get the highest rated books
+    val highlyRatedBooks = caseBooksList.filter(_.average_Rating > 4.5)
+    // println("Highly Rated Books (> 4.5):")
+    // highlyRatedBooks.foreach(b => println(s"${b.title} by ${b.author.Name}"))
+
+    //VA: Use of groupBy to sorts by type of format
+    val booksByFormat = caseBooksList.groupBy(_.format)
+    // println("Books Grouped by Format:")
+    // booksByFormat.foreach { case (format, books) =>
+    //     println(s"\n$format:")
+    //     books.foreach(book => println(s"- ${book.title}"))
+    // }
+
+    //VA: Use of foldLeft to calculate the average rating
+    val (total, count) = caseBooksList.foldLeft((0.0f, 0)) {
+        case ((sum, n), book) => (sum + book.average_Rating, n + 1)
+    }
+    val avg = total / count
+    // println(f"Average Rating: $avg%.2f")
+
+    //VA: Use of flatMap to get all authors and additional authors
+    val allAuthorsFlat = caseBooksList.flatMap { book =>
+        val main = List(book.author.Name)
+        val additional = book.additional_authors.toList.flatMap(_.split(", ").toList)
+        main ++ additional
+    }
+    // allAuthorsFlat.distinct.sorted.foreach(println)
+
+
