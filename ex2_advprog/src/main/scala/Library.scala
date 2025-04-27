@@ -97,18 +97,49 @@ def insert_case_class(entry: CSVEntry): case_Book =
         )
     return book 
 
+// VA: Ex6 -> Extension Method for List[case_Book]
+trait BookCollectionOps[A]:
+  extension (list: List[A])
+    def averageRating(using ev: A <:< case_Book): Float =
+      val (total, count) = list.foldLeft((0.0f, 0)) {
+        case ((sum, n), book) => (sum + ev(book).average_Rating, n + 1)
+      }
+      if (count == 0) 0.0f else total / count
+
+given BookCollectionOps[case_Book] with {}
+
+// VA: Ex6 -> Page Combiner (Monoid composition)
+trait PageCombiner[A]:
+  def zero: A
+  def combine(x: A, y: A): A
+
+object PageCombiner:
+  given PageSum: PageCombiner[Int] with
+    def zero: Int = 0
+    def combine(x: Int, y: Int): Int = x + y
+
+def sumPages[A](list: List[A])(using combiner: PageCombiner[A]): A =
+  list.foldLeft(combiner.zero)(combiner.combine)
+
+// VA: Ex6 -> Safe Average Pages (Monad with Option) ===
+def safeAveragePages(books: List[case_Book]): Option[Double] =
+  val pages: List[Int] = books.flatMap(_.page_number)
+  if pages.isEmpty then None
+  else Some(pages.sum.toDouble / pages.size)
+
+
 @main def main =
     val data = readCsvFile()
 
-    //VA: changed to val for immutability and functional mapping
+    //VA: Ex5 -> changed to val for immutability and functional mapping
     val caseBooksList: List[case_Book] = data.map(insert_case_class)
 
-    //VA: use of collection with filter to get the highest rated books
+    //VA: Ex5 -> use of collection with filter to get the highest rated books
     val highlyRatedBooks = caseBooksList.filter(_.average_Rating > 4.5)
     // println("Highly Rated Books (> 4.5):")
     // highlyRatedBooks.foreach(b => println(s"${b.title} by ${b.author.Name}"))
 
-    //VA: Use of groupBy to sorts by type of format
+    //VA: Ex5 -> Use of groupBy to sorts by type of format
     val booksByFormat = caseBooksList.groupBy(_.format)
     // println("Books Grouped by Format:")
     // booksByFormat.foreach { case (format, books) =>
@@ -116,14 +147,14 @@ def insert_case_class(entry: CSVEntry): case_Book =
     //     books.foreach(book => println(s"- ${book.title}"))
     // }
 
-    //VA: Use of foldLeft to calculate the average rating
+    //VA: Ex5 -> Use of foldLeft to calculate the average rating
     val (total, count) = caseBooksList.foldLeft((0.0f, 0)) {
         case ((sum, n), book) => (sum + book.average_Rating, n + 1)
     }
     val avg = total / count
     // println(f"Average Rating: $avg%.2f")
 
-    //VA: Use of flatMap to get all authors and additional authors
+    //VA: Ex5 -> Use of flatMap to get all authors and additional authors
     val allAuthorsFlat = caseBooksList.flatMap { book =>
         val main = List(book.author.Name)
         val additional = book.additional_authors.toList.flatMap(_.split(", ").toList)
